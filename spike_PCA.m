@@ -5,7 +5,7 @@ clear
 clc
 %targets = {'FORK';};
 
-spike_readin
+spike_readin % load('spikeUnion.mat')
 
 timestampspersecond = 1000; % timestamp = 1ms
 binsize = 50;   % bin size = 50ms
